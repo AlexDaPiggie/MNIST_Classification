@@ -56,9 +56,8 @@ Framework:
 - Refitted models are stored locally as `.pkl` files
 
 ## Performance
-| | Before **Data Augmentation** | After **Data Augmentnation**|
+|Model | Before **Data Augmentation** | After **Data Augmentnation**|
 |:---:|:---:|:---:|
-|Model/Accuracy| | |
 |Random Forest|~86.28%|~86.34%|
 |KNN|~82.85%|~83.68%|
 
