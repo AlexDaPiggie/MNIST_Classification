@@ -39,9 +39,8 @@ Framework:
     * Add Noise (Blacken) 
     * Load to .npz files for future use
 
-*Some instances demonstrating Data Augmentation*
+*As there are 10 augmenting movements in total, the size of training set was expanded by 11 time. Some instances demonstrating Data Augmentation:*
 ![alt text](image-1.png)
-*As there are 10 augmenting movements in total, the size of training set was expanded by 11 times*
 
 # Fine-Tuning
 *KNeighborsClassifier* and *RandomForestClassifer* were chosen for benchmark.
