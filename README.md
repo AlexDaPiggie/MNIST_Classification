@@ -46,6 +46,7 @@ Framework:
 
 # Fine-Tuning
 *KNeighborsClassifier* and *RandomForestClassifer* were chosen for benchmark.
+
 ## Cross Validation: 
 - Cross Validating subset: 10,000 instances from *scaled* training set
 - Instances are selected using `Stratified Sampling`
