@@ -43,7 +43,7 @@ Framework:
 ![alt text](image-1.png)
 
 # Fine-Tuning
-*KNeighborsClassifier* and *RandomForestClassifer* were chosen for benchmark.
+**KNeighborsClassifier** and **RandomForestClassifer** were chosen for benchmark.
 
 ## Cross Validation: 
 - Cross Validating subset: 10,000 instances from *scaled* training set
