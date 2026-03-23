@@ -55,23 +55,24 @@ Framework:
 - Refitted models are stored locally as `.pkl` files
 
 ## Performance
-|Model\Accuracy| Before `Data Augmentation` | After `Data Augmentnation`|
+|Model\Accuracy| Before **Data Augmentation** | After **Data Augmentnation**|
 |:---:|:---:|:---:|
 |Random Forest|~86.28%|~86.34%|
 |KNN|~82.85%|~83.68%|
 
 # Validate on Test set
-- `Random Forest` Accuracy: 86%
+### Random Forest Accuracy: 86%
 ![alt text](image-3.png)
-- `KNN` Accuracy: 85%
+
+### KNN Accuracy: 85%
 ![alt text](image-2.png)
 
 # Error Analysis
-## Random Forest
+### Random Forest
 ![alt text](image-4.png)
 
 
-## KNN
+### KNN
 ![alt text](image-6.png)
 
 **For both models, the prominent errors are pretty reasonable**: ![alt text](image-5.png)
