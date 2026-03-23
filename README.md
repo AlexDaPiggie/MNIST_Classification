@@ -76,4 +76,4 @@ Framework:
 ### KNN
 ![alt text](image-6.png)
 
-**For both models, the prominent errors are pretty reasonable**: ![alt text](image-5.png)
+### **For both models, the prominent errors are pretty reasonable**: ![alt text](image-5.png)
