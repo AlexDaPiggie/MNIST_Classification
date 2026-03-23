@@ -26,7 +26,7 @@ The dataset was splitted into:
 - Train: 60,000 images
 - Test: 10,000 images
 
-* Some instances of the dataset:
+Some instances of the dataset:
 ![alt text](image.png)
 
 # Data Preprocessing
@@ -38,7 +38,7 @@ Framework:
     * Flip vertically
     * Add Noise (Blacken) 
     * Load to .npz files for future use
-    
+
 **Some instances demonstrating Data Augmentation**
 ![alt text](image-1.png)
     
