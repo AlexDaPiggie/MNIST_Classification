@@ -1,6 +1,6 @@
 # Data Augmentation on Fashion MNIST Classification
 # Overview 
-This project aims to examine the effect of `Data Augmentation` on performance Classifier Models. The benchmark for measuring accuray is `Fashion MNIST`.
+This project aims to examine the effect of **Data Augmentation** on performance Classifier Models. The benchmark for measuring accuray is **Fashion MNIST**.
 
 # Dataset
 - Source: [Fashion MNIST - Zalando Research (Kaggle)] URL: https://www.kaggle.com/datasets/zalando-research/fashionmnist
