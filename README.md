@@ -57,8 +57,8 @@ Framework:
 
 ## Performance
 | | Before **Data Augmentation** | After **Data Augmentnation**|
-|Model/Accuracy| | |
 |:---:|:---:|:---:|
+|Model/Accuracy| | |
 |Random Forest|~86.28%|~86.34%|
 |KNN|~82.85%|~83.68%|
 
