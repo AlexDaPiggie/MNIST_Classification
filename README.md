@@ -45,7 +45,7 @@ Framework:
 **As there are 10 augmenting movements in total, the size of training set was expanded by 11 times**
 
 # Fine-Tuning
-* `KNeighborsClassifier` and `RandomForestClassifer` were chosen for benchmark.
+*KNeighborsClassifier* and *RandomForestClassifer* were chosen for benchmark.
 ## Cross Validation: 
 - Cross Validating subset: 10,000 instances from *scaled* training set
 - Instances are selected using `Stratified Sampling`
