@@ -41,8 +41,7 @@ Framework:
 
 *Some instances demonstrating Data Augmentation*
 ![alt text](image-1.png)
-    
-**As there are 10 augmenting movements in total, the size of training set was expanded by 11 times**
+*As there are 10 augmenting movements in total, the size of training set was expanded by 11 times*
 
 # Fine-Tuning
 *KNeighborsClassifier* and *RandomForestClassifer* were chosen for benchmark.
