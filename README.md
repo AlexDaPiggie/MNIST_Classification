@@ -46,17 +46,18 @@ Framework:
 **KNeighborsClassifier** and **RandomForestClassifer** were chosen for benchmark.
 
 ## Cross Validation: 
-- Cross Validating subset: 10,000 instances from *scaled* training set
-- Instances are selected using `Stratified Sampling`
+- Cross Validating subset: 20,000 instances from *scaled* training set
+- Instances are selected using **Stratified Sampling**
 - Number of CV: 3 groups
 
 ## Hyper Parameter Tuning: 
-- Framework: `Optuna`
+- Framework: **Optuna**
 - Refit tuned models on *augmented and scaled* training set
 - Refitted models are stored locally as `.pkl` files
 
 ## Performance
-|Model\Accuracy| Before **Data Augmentation** | After **Data Augmentnation**|
+| | Before **Data Augmentation** | After **Data Augmentnation**|
+|Model/Accuracy| | |
 |:---:|:---:|:---:|
 |Random Forest|~86.28%|~86.34%|
 |KNN|~82.85%|~83.68%|
