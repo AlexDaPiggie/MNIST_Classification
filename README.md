@@ -10,16 +10,16 @@ This project aims to examine the effect of `Data Augmentation` on performance Cl
 - Type: images are stored as 1 x 784 vectors
 
 - LabelFeatures: 
-* Number 0: T-shirt/top
-* Number 1: Trouser
-* Number 2: Pullover
-* Number 3: Dress
-* Number 4: Coat
-* Number 5: Sandal
-* Number 6: Shirt
-* Number 7: Sneaker
-* Number 8: Bag
-* Number 9: Ankle boot
+    * Number 0: T-shirt/top
+    * Number 1: Trouser
+    * Number 2: Pullover
+    * Number 3: Dress
+    * Number 4: Coat
+    * Number 5: Sandal
+    * Number 6: Shirt
+    * Number 7: Sneaker
+    * Number 8: Bag
+    * Number 9: Ankle boot
 
 # Train - Test set
 The dataset was splitted into: 
@@ -37,10 +37,12 @@ Framework:
     * Rotate in 4 angles (-20, -10, 10, 20) in degrees
     * Flip vertically
     * Add Noise (Blacken) 
-    ![alt text](image-1.png)
+    * Load to .npz files for future use
     
-    **As there are 10 augmenting movements in total, the size of training set was expanded by 11 times**
-- Preprocessed Data are stored locally as `.npz` files for future usage
+**Some instances demonstrating Data Augmentation**
+![alt text](image-1.png)
+    
+**As there are 10 augmenting movements in total, the size of training set was expanded by 11 times**
 
 # Fine-Tuning
 * `KNeighborsClassifier` and `RandomForestClassifer` were chosen for benchmark.
