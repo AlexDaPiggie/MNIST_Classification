@@ -70,7 +70,6 @@ Framework:
 
 # Error Analysis
 ### Random Forest
-![alt text](image-4.png)
 
 ### KNN
 ![alt text](image-6.png)
