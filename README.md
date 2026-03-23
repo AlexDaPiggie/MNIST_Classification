@@ -1,6 +1,6 @@
 # Data Augmentation on Fashion MNIST Classification
 # Overview 
-This project aims to examine the effect of **Data Augmentation** on performance Classifier Models. The benchmark for measuring accuray is **Fashion MNIST**.
+This project aims to examine the effect of **Data Augmentation** on performance of  Classifier Models. The benchmark for measuring accuracy is **Fashion MNIST**.
 
 # Dataset
 - Source: [Fashion MNIST - Zalando Research (Kaggle)] URL: https://www.kaggle.com/datasets/zalando-research/fashionmnist
@@ -9,7 +9,7 @@ This project aims to examine the effect of **Data Augmentation** on performance 
 
 - Type: images are stored as 1 x 784 vectors
 
-- LabelFeatures: 
+- Labels: 
     * Number 0: T-shirt/top
     * Number 1: Trouser
     * Number 2: Pullover
@@ -22,7 +22,7 @@ This project aims to examine the effect of **Data Augmentation** on performance 
     * Number 9: Ankle boot
 
 # Train - Test set
-The dataset was splitted into: 
+The dataset was split into: 
 - Train: 60,000 images
 - Test: 10,000 images
 
@@ -56,7 +56,7 @@ Framework:
 - Refitted models are stored locally as `.pkl` files
 
 ## Performance
-|Model | Before **Data Augmentation** | After **Data Augmentnation**|
+|Model | Before **Data Augmentation** | After **Data Augmentation**|
 |:---:|:---:|:---:|
 |Random Forest|~86.28%|~86.34%|
 |KNN|~82.85%|~83.68%|
